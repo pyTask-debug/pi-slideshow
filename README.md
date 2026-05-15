@@ -15,7 +15,7 @@ A portable photo slideshow system built with a **Raspberry Pi Zero W** and the *
 
 ## What it does
 
-- **Central screen** — cycles through random images from `~/horizontal` and `~/vertical` every 10 seconds. Horizontal images are resized to fill the screen; vertical images are letterboxed with black bars to preserve aspect ratio.
+- **Central screen** — cycles through random images from `~/horizontal` and `~/vertical` every 7 seconds. Horizontal images are resized to fill the screen; vertical images are letterboxed with black bars to preserve aspect ratio.
 - **Left screen** — shows RAM usage and CPU % with animated arc gauges, updated every 2 seconds.
 - **Right screen** — shows CPU temperature and disk usage %, updated every 2 seconds.
 - **Physical button** (GPIO 26) — hold to safely shut down the Pi.
